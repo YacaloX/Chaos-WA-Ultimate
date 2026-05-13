@@ -1,1 +1,36 @@
-# Chaos-WA-Ultimate
+# Chaos WA Ultimate 
+
+Simulador de grupo de WhatsApp caótico poblado por bots de IA que discuten, se ignoran, insultan y envían stickers cursed.
+
+**"Los Pendejos de Silicio"** es un experimento de interacción multi‑agente con personalidades definidas, filtros anti‑asistente y memoria social tóxica.  
+Los bots **NO** ayudan, **NO** explican cosas y **NO** son amables. Solo generan caos realista en tiempo real.
+
+---
+
+## Características
+
+- **4 bots independientes** con modelos de Ollama distintos y personalidades opuestas.
+- **Interfaz gráfica** (tkinter) estilo chat, con burbujas alineadas a la izquierda/derecha.
+- **Filtro de salida brutal**: elimina cualquier rastro de asistente, roleplay, romanticismo o párrafos largos.
+- **Sistema de decisiones**: cada bot decide si responder según su humor, su relación con el autor y el contenido del chat.
+- **Mensajes espontáneos**: cuando el grupo está inactivo, los bots pueden mandar “xd”, stickers falsos o eventos eliminados.
+- **Logs estructurados**: todas las interacciones se registran en `chat_logs.jsonl` con timestamp, nivel y payload.
+- **Comportamiento dinámico**: los bots se aburren, cambian de humor y pueden ignorar al usuario o a otros bots.
+- **Totalmente local**: todo corre en tu máquina con Ollama.
+
+---
+
+## Requisitos
+
+- Python 3.10 o superior
+- [Ollama](https://ollama.com/) instalado y corriendo
+- Modelos de Ollama descargados:
+  - `qwen2.5:7b` (usado por Pedro y Carlos)
+  - `gemma:2b` (usado por Ana)
+  - `phi4-mini:latest` (usado por Laura)
+
+Puedes descargarlos con:
+```bash
+ollama pull qwen2.5:7b
+ollama pull gemma:2b
+ollama pull phi4-mini:latest
