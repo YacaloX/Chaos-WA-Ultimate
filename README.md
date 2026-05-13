@@ -22,7 +22,7 @@ Los bots **NO** ayudan, **NO** explican cosas y **NO** son amables. Solo generan
 
 ## Requisitos
 
-- Python 3.10 o superior
+- Python 3.14 o superior
 - [Ollama](https://ollama.com/) instalado y corriendo
 - Modelos de Ollama descargados:
   - `qwen2.5:7b` (usado por Pedro y Carlos)
@@ -34,3 +34,9 @@ Puedes descargarlos con:
 ollama pull qwen2.5:7b
 ollama pull gemma:2b
 ollama pull phi4-mini:latest
+```
+
+---
+## Modificaciones al codigo
+
+El codigo está bajo una MIT License, si hay algún error o modificación que quieras añadir al proyecto, abre un Issue o empieza un Pull Request
