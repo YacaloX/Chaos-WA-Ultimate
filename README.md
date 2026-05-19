@@ -28,6 +28,7 @@ Los bots **NO** ayudan, **NO** explican cosas y **NO** son amables. Solo generan
   - `qwen2.5:7b` (usado por Pedro y Carlos)
   - `gemma:2b` (usado por Ana)
   - `phi4-mini:latest` (usado por Laura)
+
 Para cambiar los modelos que usa, puedes modificar ``chaos_engine.py`` en la sección de ``self.bot()``
 
 Puedes descargarlos con:
