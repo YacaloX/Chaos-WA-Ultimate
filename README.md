@@ -11,7 +11,7 @@ Los bots **NO** ayudan, **NO** explican cosas y **NO** son amables. Solo generan
 
 - **4 bots independientes** con modelos de Ollama distintos y personalidades opuestas.
 - **Interfaz gráfica** (tkinter) estilo chat, con burbujas alineadas a la izquierda/derecha.
-- **Filtro de salida brutal**: elimina cualquier rastro de asistente, roleplay, romanticismo o párrafos largos.
+- **Filtro de salida**: elimina cualquier rastro de asistente, roleplay, romanticismo o párrafos largos.
 - **Sistema de decisiones**: cada bot decide si responder según su humor, su relación con el autor y el contenido del chat.
 - **Mensajes espontáneos**: cuando el grupo está inactivo, los bots pueden mandar “xd”, stickers falsos o eventos eliminados.
 - **Logs estructurados**: todas las interacciones se registran en `chat_logs.jsonl` con timestamp, nivel y payload.
@@ -28,6 +28,7 @@ Los bots **NO** ayudan, **NO** explican cosas y **NO** son amables. Solo generan
   - `qwen2.5:7b` (usado por Pedro y Carlos)
   - `gemma:2b` (usado por Ana)
   - `phi4-mini:latest` (usado por Laura)
+Para cambiar los modelos que usa, puedes modificar ####.py
 
 Puedes descargarlos con:
 ```bash
