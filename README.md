@@ -1,5 +1,18 @@
 # Chaos WA Ultimate 
 
+<p align="center">
+  <a href="https://github.com/YacaloX/Chaos-WA-Ultimate/pulls">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests">
+  </a>
+  <a href="https://github.com/YacaloX/Chaos-WA-Ultimate/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
+  </a>
+  
+  <a href="https://github.com/YacaloX/Chaos-WA-Ultimate">
+    <img src="https://img.shields.io/badge/Python-3.14-blue.svg" alt="Python 3.14">
+  </a>
+</p>
+
 Simulador de grupo de WhatsApp caótico poblado por bots de IA que discuten, se ignoran, insultan y envían stickers cursed.
 
 **"Los Pendejos de Silicio"** es un experimento de interacción multi‑agente con personalidades definidas, filtros anti‑asistente y memoria social tóxica.  
